@@ -1,0 +1,49 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #F6DCAC;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #e3fcff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #028391;
+    width: 300px;
+    height: 300px;
+}
+
+h1 {
+    text-align: center;
+    color: #01204E;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #028391;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.produto-nome {
+    font-weight: bold;
+}
+
+.produto-preco {
+    color: #01204E;
+}
